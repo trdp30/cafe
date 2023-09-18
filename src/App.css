@@ -115,3 +115,18 @@
   width: 100vw;
   height: 140px;
 }
+
+.cart-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.cart-count {
+  margin-left: 5px;
+}

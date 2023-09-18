@@ -1,11 +1,24 @@
 // CafeMenu.js
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Cart from "./Cart";
 import { menuItems } from "./menuItems";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const CafeMenu = () => {
   const [cart, setCart] = useState([]);
+  const [isCartOpen, setIsCartOpen] = useState(false); // State to track cart visibility
+
+  const toggleCart = () => {
+    setIsCartOpen(!isCartOpen);
+  };
+
+  useEffect(() => {
+    if (cart.length < 1) {
+      setIsCartOpen(false);
+    }
+  }, [cart]);
 
   const addToCart = (item) => {
     const existingItemIndex = cart.findIndex((cartItem) => cartItem.name === item.name);
@@ -38,7 +51,17 @@ const CafeMenu = () => {
   return (
     <div>
       <img src="/images/banner.jpeg" alt="banner" className="banner" />
+      <div className="menu-header">
+        {cart.length > 0 && (
+          <div className="cart-icon" onClick={toggleCart}>
+            <FontAwesomeIcon icon={faShoppingCart} />
+            <span className="cart-count">{cart.length}</span>
+          </div>
+        )}
+      </div>
+
       <div className="cafe-menu">
+        {isCartOpen && <Cart cart={cart} removeFromCart={removeFromCart} />}
         {menuItems.map((category, index) => (
           <div key={index} className="menu-category">
             <h2 className="category-title">{category.category}</h2>
@@ -55,7 +78,6 @@ const CafeMenu = () => {
             </ul>
           </div>
         ))}
-        <Cart cart={cart} removeFromCart={removeFromCart} />
       </div>
     </div>
   );
