@@ -16,7 +16,7 @@
 
 .category-title {
   font-size: 24px;
-  color: #333;
+  color: #0ec123;
   margin-bottom: 10px;
   font-weight: 700;
 }
@@ -57,7 +57,7 @@
 .item-price {
   font-size: 18px;
   font-weight: 500;
-  color: #ff6600;
+  color: #1541d4;
 }
 
 .cart {
@@ -87,6 +87,7 @@
   padding: 5px 0;
   font-size: 18px;
   color: #333;
+  font-style: italic;
 }
 
 .cart-item:nth-child(odd) {
