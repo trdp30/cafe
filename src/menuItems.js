@@ -5,9 +5,9 @@ export const menuItems = [
       { name: "Veg Sandwich", price: 30 },
       { name: "Veg Cheese Sandwich", price: 40 },
       { name: "French Fries", price: 20 },
-      { name: "VEG Burger", price: 40 },
-      { name: "VEG CHEESE Burger", price: 50 },
-      { name: "VEG Biryani", price: 80 }
+      { name: "Veg Burger", price: 40 },
+      { name: "Veg Cheese Burger", price: 50 },
+      { name: "Veg Biryani", price: 80 }
     ]
   },
   {
@@ -16,24 +16,24 @@ export const menuItems = [
       { name: "Lemon Juice", price: 15 },
       { name: "Lemon Soda", price: 20 },
       {
-        name: "Mix Fruit Juice (banana, apple, milk, honey, grapes, almonds, dates, pomegranate/watermelon)",
+        name: "Mix Fruit Juice (Banana, Apple, Milk, Honey, Grapes, Almonds, Dates, Pomegranate/Watermelon)",
         price: 50
       },
       { name: "Mosambi Juice", price: 35 },
-      { name: "GRAPE JUICE", price: 35 },
-      { name: "APPLE JUICE", price: 40 },
-      { name: "PINEAPPLE JUICE", price: 35 },
-      { name: "WATERMELON JUICE", price: 35 }
+      { name: "Grape Juice", price: 35 },
+      { name: "Apple Juice", price: 40 },
+      { name: "Pineapple Juice", price: 35 },
+      { name: "Watermelon Juice", price: 35 }
     ]
   },
   {
-    category: "HOT DRINK",
+    category: "Hot Drink",
     items: [
-      { name: "BLack TEA", price: 10 },
-      { name: "PLAIN TEA", price: 10 },
-      { name: "GINGER TEA", price: 10 },
-      { name: "CArdamom/elaichi TEA", price: 10 },
-      { name: "Lemon honey warm water", price: 15 },
+      { name: "Black Tea", price: 10 },
+      { name: "Plain Tea", price: 10 },
+      { name: "Ginger Tea", price: 10 },
+      { name: "Cardamom/Elaichi Tea", price: 10 },
+      { name: "Lemon Honey Warm Water", price: 15 },
       { name: "Cappuccino", price: 15 },
       { name: "Black Coffee", price: 15 }
     ]
@@ -41,29 +41,29 @@ export const menuItems = [
   {
     category: "Milkshake",
     items: [
-      { name: "Banana milkshake", price: 40 },
-      { name: "APPLE milkshake", price: 45 },
-      { name: "Oreo Chocolate milkshake", price: 45 },
-      { name: "Dry fruit milkshake", price: 60 }
+      { name: "Banana Milkshake", price: 40 },
+      { name: "Apple Milkshake", price: 45 },
+      { name: "Oreo Chocolate Milkshake", price: 45 },
+      { name: "Dry Fruit Milkshake", price: 60 }
     ]
   },
   {
     category: "More……..",
     items: [
-      { name: "COld Coffee", price: 50 },
-      { name: "FRUIt Bowl (a bowl of sliced 5 different fruits)", price: 40 }
+      { name: "Cold Coffee", price: 50 },
+      { name: "Fruit Bowl (A Bowl of Sliced 5 Different Fruits)", price: 40 }
     ]
   },
   {
-    category: "Coming soon…………..",
+    category: "Coming Soon…………..",
     items: [
-      { name: "Non veg biryani" },
-      { name: "Non veg burger" },
-      { name: "Non veg sandwich" },
-      { name: "Chicken nuggets" },
-      { name: "Crispy chicken" },
-      { name: "More FRUit items" },
-      { name: "Momo and many more……………………" }
+      { name: "Non Veg Biryani" },
+      { name: "Non Veg Burger" },
+      { name: "Non Veg Sandwich" },
+      { name: "Chicken Nuggets" },
+      { name: "Crispy Chicken" },
+      { name: "More Fruit Items" },
+      { name: "Momo and Many More……………………" }
     ]
   }
 ];
