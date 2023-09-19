@@ -5,16 +5,16 @@ export const menuItems = [
       { name: "Veg Sandwich", price: 30 },
       { name: "Veg Cheese Sandwich", price: 40 },
       { name: "French Fries", price: 20 },
-      { name: "Veg Burger", price: 40 },
-      { name: "Veg Cheese Burger", price: 50 },
-      { name: "Veg Biryani", price: 80 }
+      // { name: "Veg Burger", price: 40 },
+      // { name: "Veg Cheese Burger", price: 50 },
+      // { name: "Veg Biryani", price: 80 }
     ]
   },
   {
     category: "Juices",
     items: [
       { name: "Lemon Juice", price: 15 },
-      { name: "Lemon Soda", price: 20 },
+      // { name: "Lemon Soda", price: 20 },
       {
         name: "Mix Fruit Juice (Banana, Apple, Milk, Honey, Grapes, Almonds, Dates, Pomegranate/Watermelon)",
         price: 50
@@ -23,7 +23,7 @@ export const menuItems = [
       { name: "Grape Juice", price: 35 },
       { name: "Apple Juice", price: 40 },
       { name: "Pineapple Juice", price: 35 },
-      { name: "Watermelon Juice", price: 35 }
+      // { name: "Watermelon Juice", price: 35 }
     ]
   },
   {
@@ -50,7 +50,7 @@ export const menuItems = [
   {
     category: "More……..",
     items: [
-      { name: "Cold Coffee", price: 50 },
+      // { name: "Cold Coffee", price: 50 },
       { name: "Fruit Bowl (A Bowl of Sliced 5 Different Fruits)", price: 40 }
     ]
   },
