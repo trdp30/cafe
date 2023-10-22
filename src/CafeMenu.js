@@ -62,6 +62,7 @@ const CafeMenu = () => {
       <div className="cafe-menu">
         {isCartOpen && <Cart cart={cart} removeFromCart={removeFromCart} />}
         <h1 className="header-style">Café Lemon Honey</h1>
+<h3>Contact us at 8472976943</h2>
         {menuItems.map((category, index) => (
           <div key={index} className="menu-category">
             <h2 className="category-title">{category.category}</h2>
