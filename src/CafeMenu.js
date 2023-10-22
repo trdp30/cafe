@@ -3,16 +3,16 @@
 import React, { useEffect, useState } from "react";
 import Cart from "./Cart";
 import { menuItems } from "./menuItems";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const CafeMenu = () => {
   const [cart, setCart] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false); // State to track cart visibility
 
-  const toggleCart = () => {
-    setIsCartOpen(!isCartOpen);
-  };
+  // const toggleCart = () => {
+  //   setIsCartOpen(!isCartOpen);
+  // };
 
   useEffect(() => {
     if (cart.length < 1) {
