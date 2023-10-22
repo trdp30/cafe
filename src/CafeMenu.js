@@ -50,7 +50,7 @@ const CafeMenu = () => {
 
   return (
     <div>
-      <img src="/images/banner.jpeg" alt="banner" className="banner" />
+      <img src="/images/banner-2.jpeg" alt="banner" className="banner" />
       <div className="menu-header">
         {cart.length > 0 && (
           <div className="cart-icon" onClick={toggleCart}>
