@@ -74,21 +74,20 @@ export const menuItems = [
     ]
   },
   {
-    category: "Chicken snacks",
+    category: "Chicken Snacks",
     items: [
       { name: "Fried Chicken Kabab Mini(5pcs)", price: 50 },
       {
         name: "Fried Chicken Kabab Large(10 pcs)",
         price: 90
       },
-      { name: "Crispy Chicken dry", price: 90 },
+      { name: "Crispy Chicken Dry", price: 90 },
       { name: "Crispy Chicken Thick Gravy", price: 100 },
       { name: "Chicken Pakora Mini(5pcs)", price: 50 },
       { name: "Chicken Pakora Large(10 pcs)", price: 90 },
       { name: "Lemon Honey Chicken", price: 100 },
       { name: "chicken Wings", price: 120 },
       { name: "Chilli Chicken", price: 80 },
-      { name: "Chicken Nuggets", price: 100 },
       { name: "Drums of Heaven", price: 120 },
     ]
   },
@@ -121,20 +120,34 @@ export const menuItems = [
     category: "Hot Drink",
     items: [
       { name: "Black Tea", price: 10 },
-      { name: "Milk Tea", price: 10 },
-      { name: "Milk Tea", price: 10 },
-      { name: "Cappuccino", price: 25 },
+      { name: "Milk Tea(small)", price: 10 },
+      { name: "Milk Tea(large)", price: 15 },
       { name: "Black Coffee", price: 10 },
-      { name: "Lemon Honey Warm Water", price: 30 }
+      { name: "Cappuccino", price: 25 },
+      { name: "Lemon Honey Warm Water", price: 30 },
+    ]
+  },
+  {
+    category: "Juice",
+    items: [
+      { name: "Lemon", price: 20 },
+      { name: "Lemon Soda", price: 30 },
+      { name: "Mausambi", price: 50 },
+      { name: "Pineapple", price: 50 },
+      { name: "Grape", price: 50 },
+      { name: "Mix Fruit(Banana, Apple, Milk, Honey, Grapes, Almonds, Dates, Watermelon/pomegranate)", price: 70 } ,
+      { name: "Watermelon", price: 80 },
+      { name: "Pomegranate", price: 130 },
+      { name: "Virgin Mojito", price: 40 },
     ]
   },
   {
     category: "Milkshake",
     items: [
-      { name: "Banana Milkshake", price: 40 },
-      { name: "Apple Milkshake", price: 50 },
-      { name: "Oreo Chocolate Milkshake", price: 60 },
-      { name: "Dry Fruit Milkshake", price: 70 }
+      { name: "Banana Milkshake", price: 50 },
+      { name: "Apple Milkshake", price: 60 },
+      { name: "Oreo Chocolate Milkshake", price: 80 },
+      { name: "Dry Fruit Milkshake", price: 90 }
     ]
   },
   // {

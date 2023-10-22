@@ -50,18 +50,18 @@ const CafeMenu = () => {
 
   return (
     <div>
-      <img src="/images/banner-2.jpeg" alt="banner" className="banner" />
-      <div className="menu-header">
+      {/* <img src="/images/banner-2.jpeg" alt="banner" className="banner" /> */}
+      {/* <div className="menu-header">
         {cart.length > 0 && (
           <div className="cart-icon" onClick={toggleCart}>
             <FontAwesomeIcon icon={faShoppingCart} />
             <span className="cart-count">{cart.length}</span>
           </div>
         )}
-      </div>
-
+      </div> */}
       <div className="cafe-menu">
         {isCartOpen && <Cart cart={cart} removeFromCart={removeFromCart} />}
+        <h1 className="header-style">Café Lemon Honey</h1>
         {menuItems.map((category, index) => (
           <div key={index} className="menu-category">
             <h2 className="category-title">{category.category}</h2>
@@ -72,7 +72,7 @@ const CafeMenu = () => {
                   className="menu-item"
                   onClick={() => item.price && addToCart(item)}>
                   <span className="item-name">{item.name}</span>
-                  {item.price && <span className="item-price">₹{item.price.toFixed(2)}</span>}
+                  {item.price && <span className="item-price">{item.price}</span>}
                 </li>
               ))}
             </ul>
